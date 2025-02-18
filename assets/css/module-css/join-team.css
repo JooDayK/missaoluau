@@ -1,0 +1,244 @@
+/*--------------------------------------------------------------
+# Join Team
+--------------------------------------------------------------*/
+.join-team {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+}
+
+.join-team__Left {
+    position: relative;
+    display: block;
+}
+
+.join-team__images {
+    position: relative;
+    display: block;
+}
+
+.join-team__img-single {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.join-team__img-single img {
+    width: 100%;
+    border-radius: var(--carity-bdr-radius);
+}
+
+.join-team__content {
+    position: relative;
+    display: block;
+}
+
+.join-team__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.join-team__text {
+    margin: 0;
+    padding-bottom: 46px;
+}
+
+.join-team__points {
+    position: relative;
+    display: block;
+}
+
+.join-team__points li {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: var(--carity-black);
+}
+
+.join-team__points li+li {
+    margin-top: 10px;
+}
+
+.join-team__contact {
+    position: relative;
+    display: block;
+    border-top: 1px solid rgba(var(--carity-base-rgb), .10);
+    padding-top: 35px;
+    margin-top: 44px;
+}
+
+.join-team__contact p {
+    margin: 0;
+}
+
+.join-team__phone {
+    font-size: 24px;
+    color: var(--carity-base);
+    display: block;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.join-team__phone:hover {
+    color: var(--carity-black);
+}
+
+.join-team__email {
+    font-size: 16px;
+    display: block;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.join-team__email:hover {
+    color: var(--carity-base);
+}
+
+.join-team__right {
+    position: relative;
+    display: block;
+}
+
+.join-team__form {
+    position: relative;
+    display: block;
+}
+
+.join-team__input {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.join-team__input input[type="text"],
+.join-team__input input[type="email"] {
+    height: 64px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--carity-extra);
+    border-radius: var(--carity-bdr-radius);
+    color: var(--carity-gray);
+    padding: 0 30px;
+}
+
+.join-team__input textarea {
+    height: 190px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--carity-extra);
+    border-radius: var(--carity-bdr-radius);
+    color: var(--carity-gray);
+    padding: 18px 30px 30px;
+}
+
+.join-team__input.join-team__message-box {
+    height: 190px;
+}
+
+.join-team__btn {
+    border: none;
+}
+
+#ui-datepicker-div.ui-widget-content {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid var(--carity-black);
+    color: #252525;
+    font-size: 14px;
+    border-radius: 0px;
+    width: 270px;
+    padding: 5px;
+}
+
+#ui-datepicker-div.ui-datepicker .ui-datepicker-header {
+    background: var(--carity-base) none repeat scroll 0 0;
+    border: 2px solid var(--carity-base);
+    border-radius: 0;
+    color: var(--carity-white);
+    font-weight: 700;
+    padding: 5px 0;
+    position: relative;
+}
+
+.ui-datepicker td a {
+    color: var(--carity-black) !important;
+    text-align: center;
+    background-image: none !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #f9f9f9 !important;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid var(--carity-black) !important;
+    background: var(--carity-black) !important;
+    color: var(--carity-white) !important;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 5px;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    border-radius: 30%;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    width: 20px;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 5px;
+}
+
+.ui-datepicker .ui-datepicker-prev:hover,
+.ui-datepicker .ui-datepicker-next:hover {
+    top: 7px;
+    background: var(--carity-white);
+    border: none;
+}
+
+.ui-datepicker table {
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 0 0 0.4em;
+    width: 100%;
+}
+
+.ui-datepicker th {
+    border: medium none;
+    font-weight: 600;
+    padding: 2px 3px;
+    text-align: center;
+}
+
+.ui-datepicker-calendar .ui-state-default:hover,
+.ui-datepicker-calendar .ui-state-default:active {
+    background: var(--carity-black);
+    color: var(--carity-white);
+    border-color: var(--carity-black);
+}
+
+#ui-datepicker-div.ui-widget {
+    font-family: var(--carity-font);
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

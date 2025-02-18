@@ -1,0 +1,230 @@
+/*==============================================
+    Why Choose One
+===============================================*/
+.why-choose-one {
+    position: relative;
+    display: block;
+    padding: 120px 0 0px;
+    z-index: 1;
+}
+
+.why-choose-one .section-title {
+    margin-bottom: 50px;
+}
+
+.why-choose-one__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+    padding: 39px 25px 37px;
+    border: 1px solid var(--carity-bdr-color);
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.why-choose-one__single::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    background-color: var(--carity-primary);
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    transform-origin: bottom right;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    z-index: -1;
+}
+
+.why-choose-one ul li:nth-child(2) .why-choose-one__single::before {
+    background-color: var(--carity-base);
+}
+
+.why-choose-one ul li:nth-child(3) .why-choose-one__single::before {
+    background-color: var(--carity-secondary);
+}
+
+.why-choose-one ul li:nth-child(4) .why-choose-one__single::before {
+    background-color: #8139e7;
+}
+
+.why-choose-one__single:hover::before {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transform-origin: top center;
+}
+
+.why-choose-one__single-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    transform-origin: bottom right;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    z-index: -1;
+}
+
+.why-choose-one__single:hover .why-choose-one__single-bg {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transform-origin: top center;
+}
+
+.why-choose-one__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    background-color: var(--carity-primary);
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.why-choose-one__icon::after {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    content: "";
+    border-radius: 20px;
+    border: 1px dashed var(--carity-white);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.why-choose-one__single:hover .why-choose-one__icon::after {
+    border: 1px dashed var(--carity-primary);
+}
+
+.why-choose-one ul li:nth-child(2) .why-choose-one__single:hover .why-choose-one__icon::after {
+    border: 1px dashed var(--carity-base);
+}
+
+.why-choose-one ul li:nth-child(3) .why-choose-one__single:hover .why-choose-one__icon::after {
+    border: 1px dashed var(--carity-secondary);
+}
+
+.why-choose-one ul li:nth-child(4) .why-choose-one__single:hover .why-choose-one__icon::after {
+    border: 1px dashed #8139e7;
+}
+
+.why-choose-one__icon:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    border-radius: 30px;
+    background-color: var(--carity-white);
+    transform: scale(0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    z-index: -1;
+}
+
+.why-choose-one__single:hover .why-choose-one__icon:before {
+    transform: scaleX(1);
+}
+
+.why-choose-one ul li:nth-child(2) .why-choose-one__icon {
+    background-color: var(--carity-base);
+}
+
+.why-choose-one ul li:nth-child(3) .why-choose-one__icon {
+    background-color: var(--carity-secondary);
+}
+
+.why-choose-one ul li:nth-child(4) .why-choose-one__icon {
+    background-color: #8139e7;
+}
+
+.why-choose-one__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: var(--carity-white);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1) rotate(-45deg);
+}
+
+.why-choose-one__single:hover .why-choose-one__icon span {
+    color: var(--carity-primary);
+    transform: scale(.9) rotate(-45deg);
+}
+
+.why-choose-one ul li:nth-child(2) .why-choose-one__single:hover .why-choose-one__icon span {
+    color: var(--carity-base);
+}
+
+.why-choose-one ul li:nth-child(3) .why-choose-one__single:hover .why-choose-one__icon span {
+    color: var(--carity-secondary);
+}
+
+.why-choose-one ul li:nth-child(4) .why-choose-one__single:hover .why-choose-one__icon span {
+    color: #8139e7;
+}
+
+.why-choose-one__content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.why-choose-one__title {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 8px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.why-choose-one__single:hover .why-choose-one__title {
+    color: var(--carity-white);
+}
+
+.why-choose-one__text {
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.why-choose-one__single:hover .why-choose-one__text {
+    color: var(--carity-white);
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

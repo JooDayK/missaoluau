@@ -1,0 +1,211 @@
+/*==============================================
+    Counter One     
+===============================================*/
+.counter-one {
+    position: relative;
+    display: block;
+    padding: 0 0 90px;
+    z-index: 1;
+}
+
+.counter-one__bg-color {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 64%;
+    background-color: var(--carity-extra);
+    z-index: -1;
+}
+
+.counter-one__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.03;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.counter-one__inner {
+    position: relative;
+    display: block;
+}
+
+.counter-one__count-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.counter-one__count-list li {
+    position: relative;
+    text-align: center;
+    flex: 0 0 25%;
+    max-width: 25%;
+    width: 100%;
+}
+
+.counter-one__single {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.counter-one__single-shape {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 3px;
+    height: 100px;
+    background-color: var(--carity-bdr-color);
+    transform: translateY(-53%);
+}
+
+.counter-one__single-shape::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 3px;
+    height: 50px;
+    background-color: var(--carity-primary);
+    background-position: center bottom;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+}
+
+.counter-one__count-list li:hover .counter-one__single-shape::before {
+    transform: scaleY(1.0);
+}
+
+.counter-one__count-list li:nth-child(2) .counter-one__single-shape::before {
+    background-color: var(--carity-base);
+}
+
+.counter-one__count-list li:nth-child(3) .counter-one__single-shape::before {
+    background-color: var(--carity-secondary);
+}
+
+.counter-one__single-shape::after {
+    content: "";
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--carity-primary);
+    background-position: right center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    transform-origin: right;
+    transform-style: preserve-3d;
+    transform: scalex(0);
+}
+
+.counter-one__count-list li:hover .counter-one__single-shape::after {
+    transform: scalex(1.0);
+}
+
+.counter-one__count-list li:nth-child(2) .counter-one__single-shape::after {
+    background-color: var(--carity-base);
+}
+
+.counter-one__count-list li:nth-child(3) .counter-one__single-shape::after {
+    background-color: var(--carity-secondary);
+}
+
+.counter-one__count-list li:nth-child(4) .counter-one__single-shape::after {
+    background-color: #8139e7;
+}
+
+.counter-one__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: var(--carity-primary);
+    border-radius: 20px;
+    transform: rotate(45deg);
+    margin: 0 auto;
+}
+
+.counter-one__count-list li:nth-child(2) .counter-one__icon {
+    background-color: var(--carity-base);
+}
+
+.counter-one__count-list li:nth-child(3) .counter-one__icon {
+    background-color: var(--carity-secondary);
+}
+
+.counter-one__count-list li:nth-child(4) .counter-one__icon {
+    background-color: #8139e7;
+}
+
+.counter-one__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: var(--carity-white);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1) rotate(-45deg);
+}
+
+.counter-one__count-list li:hover .counter-one__icon span {
+    transform: scale(0.9) rotate(-45deg);
+}
+
+.counter-one__content {
+    position: relative;
+    display: block;
+}
+
+.counter-one__count {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin: 25px 0 5px;
+}
+
+.counter-one__count span {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.counter-one__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

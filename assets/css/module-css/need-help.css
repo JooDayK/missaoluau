@@ -1,0 +1,170 @@
+/*==============================================
+    Need Help One 
+===============================================*/
+.need-help-one {
+    position: relative;
+    display: block;
+}
+
+.need-help-one .row {
+    --bs-gutter-x: 0px;
+}
+
+.need-help-one__left {
+    position: relative;
+    display: block;
+}
+
+.need-help-one__img {
+    position: relative;
+    display: block;
+}
+
+.need-help-one__img img {
+    width: 100%;
+}
+
+.need-help-one__video-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.need-help-one__video-icon {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--carity-base);
+    background-color: var(--carity-white);
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.need-help-one__video-icon:hover {
+    background-color: var(--carity-black);
+    color: var(--carity-white);
+}
+
+.need-help-one__video-icon:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 5px solid rgba(var(--carity-white-rgb), .30);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.need-help-one__video-link .ripple,
+.need-help-one__video-icon .ripple:before,
+.need-help-one__video-icon .ripple:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-box-shadow: 0 0 0 0 rgba(var(--carity-white-rgb), 0.6);
+    -o-box-shadow: 0 0 0 0 rgba(var(--carity-white-rgb), 0.6);
+    -webkit-box-shadow: 0 0 0 0 rgba(var(--carity-white-rgb), 0.6);
+    box-shadow: 0 0 0 0 rgba(var(--carity-white-rgb), 0.6);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+}
+
+.need-help-one__video-icon .ripple:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    content: "";
+    position: absolute;
+}
+
+.need-help-one__video-icon .ripple:after {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    content: "";
+    position: absolute;
+}
+
+.need-help-one__right {
+    position: relative;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.07);
+    padding: 34px 30px 39.5px 50px;
+    border-left: 10px solid var(--carity-base);
+}
+
+.need-help-one__title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 800;
+    margin: 0 0 18px;
+}
+
+.need-help-one__points {
+    position: relative;
+    display: block;
+}
+
+.need-help-one__points li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.need-help-one__points li+li {
+    margin-top: 5px;
+}
+
+.need-help-one__points li .icon {
+    position: relative;
+    display: inline-block;
+}
+
+.need-help-one__points li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: var(--carity-primary);
+}
+
+.need-help-one__points li p a {
+    text-transform: capitalize;
+    color: var(--carity-gray);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.need-help-one__points li p a:hover {
+    color: var(--carity-base);
+}
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

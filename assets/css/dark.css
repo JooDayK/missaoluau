@@ -1,0 +1,200 @@
+body,
+body.boxed-wrapper .page-wrapper,
+.feature-one__single,
+.feature-one__count,
+.donation-one__main-tab-box .tab-buttons,
+.testimonial-one__single,
+.services-one__single {
+    background-color: var(--carity-black);
+}
+
+
+
+
+
+
+
+
+.contact-one__inner,
+.donation-one__bg-color,
+.testimonial-one,
+.team-one__single,
+.feature-one__shape-1,
+.causes-one__rised-and-progress,
+.services-one,
+.counter-one__bg-color,
+.up-comming-events__inner {
+    background-color: #16342f;
+}
+
+
+
+.contact-one__list li .content h3,
+.blog-one__read-more a,
+.blog-one__title a,
+.donation-one__amount-title,
+.donation-one__main-tab-box .tab-buttons .tab-btn span,
+.donation-one__right-title,
+.testimonial-one__client-content h3>a,
+.team-one__title a,
+.feature-one__title,
+.causes-one__goals span,
+.causes-one__raised span,
+.causes-one__title a,
+.services-one__title a,
+.counter-one__count,
+.counter-one__count span,
+.about-one__bottom-text,
+.about-one__contact-box .content p a,
+.about-one__points-content h3,
+.section-title__title,
+.up-comming-events__details li p,
+.up-comming-events__title {
+    color: var(--carity-white);
+}
+
+
+
+
+
+.contact-one__list li .content p,
+.contact-one__list li .content p a,
+.blog-one__text,
+.blog-one__meta li p,
+.donation-one__inner .checked-box label,
+.donation-one__donate-box .donate-amount .amount-btn,
+.donation-one__donate-box .donate-amount input,
+.donation-one__donate-box .amount-btn-1,
+.testimonial-one__client-content p,
+.testimonial-one__ratting span.last-star,
+.testimonial-one__text,
+.team-one__sub-title,
+.feature-one__text,
+.causes-one__text,
+.services-one__read-more,
+.services-one__text,
+.counter-one__text,
+.about-one__contact-box .content h3,
+.about-one__points-2 li p a,
+.about-one__points-2 li p,
+.about-one__text {
+    color: rgba(var(--carity-white-rgb), .50);
+}
+
+
+
+
+
+.services-one__shape,
+.counter-one__single-shape {
+    background-color: rgba(var(--carity-white-rgb), .20);
+}
+
+.thm-btn::after {
+    background-color: var(--carity-white);
+}
+
+.thm-btn:hover {
+    color: var(--carity-base);
+}
+
+.testimonial-one__quote span {
+    color: rgba(var(--carity-white-rgb), .20);
+}
+
+.services-one__single::before {
+    border: 1px dashed rgba(var(--carity-white-rgb), .20);
+}
+
+.donation-one__donate-box .donate-amount .amount-btn,
+.donation-one__donate-box .donate-amount input,
+.donation-one__donate-box .amount-btn-1 {
+    border: 1px solid rgba(var(--carity-white-rgb), .20);
+}
+
+.blog-one__content {
+    border: 1px solid rgba(var(--carity-white-rgb), .20);
+    border-top: 0;
+}
+
+.blog-one__content-2 {
+    border-top: 1px solid rgba(var(--carity-white-rgb), .20);
+    border-right: 0;
+}
+
+.brand-one {
+    border-top: 1px solid rgba(var(--carity-white-rgb), .10);
+}
+
+.testimonial-one__img-holder>img {
+    border: 5px solid rgba(var(--carity-white-rgb), .20);
+}
+
+.about-one__shape-1 img {
+    filter: invert(1);
+}
+
+.causes-one__rised-and-progress-bg-shape {
+    opacity: 0.40;
+}
+
+.feature-one__bg-shape {
+    mix-blend-mode: difference;
+}
+
+.brand-one__img>img {
+    filter: invert(1);
+}
+
+.donation-one__right {
+    background-color: #0e3831;
+}
+
+.about-one__img-2::before {
+    border: 10px solid #16342f;
+}
+
+.causes-one__title-box {
+    border-left: 1px solid rgba(var(--carity-white-rgb), .10);
+    border-right: 1px solid rgba(var(--carity-white-rgb), .10);
+}
+
+.become-volunteer__btn-box-2 .thm-btn::after {
+    background-color: var(--carity-black);
+}
+
+.become-volunteer__btn-box-2 .thm-btn:hover {
+    color: var(--carity-white);
+}
+
+.donation-one__btn-box .thm-btn:after {
+    background-color: var(--carity-white);
+}
+
+.donation-one__btn-box .thm-btn:hover {
+    color: var(--carity-black);
+}
+
+.causes-one__carousel.owl-theme .owl-nav .owl-next:hover,
+.causes-one__carousel.owl-theme .owl-nav .owl-prev:hover {
+    background-color: var(--carity-white);
+    color: var(--carity-black);
+}
+
+.causes-one__rised-and-progress .progress-box .bar {
+    background-color: rgba(var(--carity-white-rgb), .20);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The End */
