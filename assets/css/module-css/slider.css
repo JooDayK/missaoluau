@@ -614,6 +614,7 @@
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
     transition: all 1500ms ease;
+    transition-delay: 1300ms !important; /* força a imagem aparecer um pouco mais cedo */
 }
 
 .active .main-slider-two__img {
