@@ -520,7 +520,7 @@
     font-weight: 800;
     margin-bottom: 10px;
     line-height: 30px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .services-two__title a {
