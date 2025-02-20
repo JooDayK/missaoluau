@@ -305,7 +305,7 @@
 .feature-two__img img {
     width: 100%;
     border-radius: var(--carity-bdr-radius);
-    filter: brightness(0.5);
+    filter: brightness(0.8);
 }
 
 .feature-two__content {
