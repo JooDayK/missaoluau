@@ -191,3 +191,12 @@
 .icon-shopping-cart:before {
   content: "\e927";
 }
+.icon-location:before {
+  content: "\e947";
+}
+.icon-map2:before {
+  content: "\e94c";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}

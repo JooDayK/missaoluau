@@ -517,7 +517,7 @@
 
 .about-two__count-title {
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: 700;
     margin: 17px 0 6px;
 }
@@ -562,7 +562,7 @@
     left: 0;
     top: -3px;
     position: absolute;
-    animation: zumpX 15s linear infinite;
+    animation: zumpX 7s linear infinite;
 }
 
 .about-two__btn-and-client-box {
@@ -656,7 +656,7 @@
 
 .about-two__img-2 img {
     width: auto;
-    border-radius: var(--carity-bdr-radius);
+    border-radius: 10px;
 }
 
 .about-two__video-link {
