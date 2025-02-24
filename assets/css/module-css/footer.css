@@ -352,7 +352,7 @@
     background-color: rgba(var(--carity-white-rgb), .20);
 }
 
-.site-footer-two__newsletter-input input[type="text"] {
+.site-footer-two__newsletter-input input[type="email"] {
     font-size: 14px;
     color: var(--carity-white);
     font-weight: 400;
