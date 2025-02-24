@@ -843,24 +843,29 @@
                         <div class="site-footer-two__newsletter-left">
                             <div class="site-footer-two__newsletter-title-box">
                                 <h3 class="site-footer-two__newsletter-title">Receber as últimas novidades</h3>
+                                    <p>Irá receber apenas 1 email/mês</p>
                             </div>
                         </div>
                         <div class="site-footer-two__newsletter-right">
                             <div class="site-footer-two__newsletter-content">
-                                <form class="site-footer-two__newsletter-form" action="https://api.web3forms.com/submit" method="POST">
+                                <form id="newsletter-form" class="site-footer-two__newsletter-form" method="POST">
                                     <input type="hidden" name="access_key" value="64ab4e8a-6833-426f-9b01-5aee892b4b1a">
+                                    <input type="hidden" name="subject" value="Newsletter Missão Católica do Luau">
+                                    <input type="checkbox" name="botcheck" id="" style="display: none;">
                                     
                                     <div class="site-footer-two__newsletter-input">
                                         <input type="email" name="email" placeholder="Escreve o teu Email" required>
                                     </div>
                                     <button type="submit" class="thm-btn site-footer-two__newsletter-btn">Subscrever</button>
                                 </form>
+                                <div id="newsletter-result"></div> <!-- Message container -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+        
 
         <!--Blog Two Start-->
         <section class="blog-two">
@@ -1180,6 +1185,10 @@
 
     <!-- template js -->
     <script src="assets/js/script.js"></script>
+    <!-- newsletter js -->
+    <script src="assets/js/newsletter.js"></script>
+
+
 </body>
 
 </html>
