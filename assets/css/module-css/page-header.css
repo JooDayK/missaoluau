@@ -57,7 +57,7 @@
     font-weight: 800;
     line-height: 65px;
     color: var(--carity-white);
-    text-transform: capitalize;
+    text-transform: none;
     margin-bottom: 17px;
 }
 
