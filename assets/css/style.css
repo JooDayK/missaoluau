@@ -550,7 +550,7 @@ ul {
   padding: 16.5px 40px 16.5px;
   border-radius: 30px;
   transition: 0.5s ease-in-out;
-  text-transform: capitalize;
+  text-transform: none;
   overflow: hidden;
   letter-spacing: 0.25px;
   text-align: center;
