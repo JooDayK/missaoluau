@@ -17,6 +17,7 @@
     margin-bottom: 30px;
     overflow: hidden;
     z-index: 1;
+    align-items: center;
 }
 
 .team-one ul li:nth-child(2) .team-one__single {
@@ -676,7 +677,7 @@
 
 /* About Page Team */
 .about-page-team {
-    padding: 0px 0 90px;
+    padding: 120px 0 90px;
 }
 
 
