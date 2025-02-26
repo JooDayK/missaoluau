@@ -719,6 +719,37 @@
   animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 }
 
+/* Image Bounce 2 */
+
+@-webkit-keyframes ImgBounce-2 {
+  0% {
+    -webkit-transform: translateY(0) scale(1.2);
+    transform: translateY(0) scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: translateY(-30px) scale(1.2);
+    transform: translateY(-30px) scale(1.2);
+  }
+}
+
+@keyframes ImgBounce-2 {
+  0% {
+    -webkit-transform: translateY(0) scale(1.2);
+    transform: translateY(0) scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: translateY(-30px) scale(1.2);
+    transform: translateY(-30px) scale(1.2);
+  }
+}
+
+.img-bounce-2 {
+  -webkit-animation: ImgBounce-2 5s ease-in-out 0s infinite alternate;
+  animation: ImgBounce-2 5s ease-in-out 0s infinite alternate;
+}
+
 
 /***
 =============================================
