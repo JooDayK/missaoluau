@@ -203,9 +203,11 @@
                                 <h3 class="section-title__title title-animation">Missão Católica do Luau <br>
                                     20 Anos de Presença</h3>
                             </div>
-                            <p class="about-page__text">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                                sed do eiusmod tempor incididunt ut labore et simply free text dolore magna aliqua lonm
-                                andhn.</p>
+                            <p class="about-page__text"> Uma instituição ou um organismo social e eclesial, 
+                                para que possa funcionar convenientemente necessita também de estruturas de governo e de coordenação.
+                                Com base neste princípio, o Padre Dehon, Fundador da Congregação, procurou, desde o início,
+                                criar estruturas e organismos de governo que o apoiaram na condução dos destinos da sua obra.
+                                </p>
                             <ul class="about-page__points list-unstyled">
                                 <li>
                                     <div class="about-page__points-content">
@@ -213,10 +215,10 @@
                                             <span class="icon-comment"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Join our Team</p>
+                                            <p>Regra de Vida</p>
                                         </div>
                                     </div>
-                                    <p class="about-page__points-text">Lorem ipsum dolor sit ame ed consectetur nod.</p>
+                                    <p class="about-page__points-text">A vida e a organização da Congregação são reguladas pelo Direito universal da Igreja.</p>
                                 </li>
                                 <li>
                                     <div class="about-page__points-content">
@@ -224,10 +226,10 @@
                                             <span class="icon-comment"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Quick Fundraising</p>
+                                            <p>Governo</p>
                                         </div>
                                     </div>
-                                    <p class="about-page__points-text">Lorem ipsum dolor sit ame ed consectetur nod.</p>
+                                    <p class="about-page__points-text">A autoridade suprema na Congregação, é exercida, de modo ordinário, pelo Superior Geral.</p>
                                 </li>
                             </ul>
                         </div>
@@ -1007,18 +1009,23 @@
                     <div class="site-footer-two__newsletter-inner">
                         <div class="site-footer-two__newsletter-left">
                             <div class="site-footer-two__newsletter-title-box">
-                                <h3 class="site-footer-two__newsletter-title">Subscribe Our Newsletters</h3>
-                            </div>
+                                <h3 class="site-footer-two__newsletter-title">Receber as últimas novidades</h3>
+                                <p>Irá receber apenas 1 email/mês</p>
                         </div>
-                        <div class="site-footer-two__newsletter-right">
-                            <div class="site-footer-two__newsletter-content">
-                                <form class="site-footer-two__newsletter-form">
-                                    <div class="site-footer-two__newsletter-input">
-                                        <input type="text" placeholder="Enter Your Email">
-                                    </div>
-                                    <button type="submit"
-                                        class="thm-btn site-footer-two__newsletter-btn">Subscribe</button>
-                                </form>
+                    </div>
+                    <div class="site-footer-two__newsletter-right">
+                        <div class="site-footer-two__newsletter-content">
+                            <form id="newsletter-form" class="site-footer-two__newsletter-form" method="POST">
+                                <input type="hidden" name="access_key" value="64ab4e8a-6833-426f-9b01-5aee892b4b1a">
+                                <input type="hidden" name="subject" value="Newsletter Missão Católica do Luau">
+                                <input type="checkbox" name="botcheck" id="" style="display: none;">
+                                
+                                <div class="site-footer-two__newsletter-input">
+                                    <input type="email" name="email" placeholder="Escreve o teu Email" required>
+                                </div>
+                                <button type="submit" class="thm-btn site-footer-two__newsletter-btn">Subscrever</button>
+                            </form>
+                            <div id="newsletter-result"></div> 
                             </div>
                         </div>
                     </div>
