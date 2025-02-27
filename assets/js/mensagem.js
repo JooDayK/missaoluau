@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("mensagem-form");
     const result = document.getElementById("mensagem-result");
+    let isSubmitting = false; // Flag to prevent double submissions
 
     // Função para validar o formulário
     function validateForm() {
@@ -52,8 +53,12 @@ document.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", function (e) {
         e.preventDefault(); // Impede o envio padrão do formulário
 
+        if (isSubmitting) return; // Se já estiver enviando, sai da função
+        isSubmitting = true; // Define a flag como true
+
         // Valida o formulário antes de enviar
         if (!validateForm()) {
+            isSubmitting = false; // Reseta a flag se a validação falhar
             result.innerHTML = `<span style="color:red;">Por favor, preencha todos os campos obrigatórios corretamente.</span>`;
             return; // Interrompe o envio se houver erros
         }
@@ -88,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
             form.reset(); // Limpa os campos do formulário
             setTimeout(() => {
                 result.innerHTML = ""; // Oculta a mensagem após 3 segundos
+                isSubmitting = false; // Reseta a flag após o envio
             }, 3000);
         });
     });
