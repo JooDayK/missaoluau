@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Valida o formulário antes de enviar
         if (!validateForm()) {
-            isSubmitting = false; // Reseta a flag se a validação falhar
+            isSubmitting = false; // Reset a flag se a validação falhar
             result.innerHTML = `<span style="color:red;">Por favor, preencha todos os campos obrigatórios corretamente.</span>`;
             return; // Interrompe o envio se houver erros
         }
