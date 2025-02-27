@@ -931,6 +931,8 @@
     color: rgba(var(--carity-white-rgb), .5);
     font-size: 16px;
     line-height: 26px;
+    text-align: justify;
+    font-style: italic;
 }
 
 .footer-widget-three__twitter-feed-text a {

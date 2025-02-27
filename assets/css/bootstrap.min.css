@@ -11708,3 +11708,13 @@ fieldset:disabled .btn {
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+.error {
+    border: 1px solid red !important;
+    background-color: #ffe6e6; /* Fundo vermelho claro */
+}
+
+#mensagem-result {
+    margin-top: 10px;
+    font-size: 14px;
+}
