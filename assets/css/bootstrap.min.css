@@ -561,7 +561,7 @@ progress {
 }
 
 .list-unstyled {
-    padding-right: 0;
+    padding-left: 0;
     list-style: none
 }
 
@@ -706,6 +706,26 @@ progress {
 }
 
 .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y)
+}
+
+.row-1 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+    justify-content: center;
+}
+
+.row-1>* {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
@@ -1622,6 +1642,11 @@ progress {
     .col-xl-3 {
         flex: 0 0 auto;
         width: 25%
+    }
+
+    .col-xl-3-5 {
+        flex: 0 0 auto;
+        width: 30%
     }
 
     .col-xl-4 {
