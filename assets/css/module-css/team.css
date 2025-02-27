@@ -184,7 +184,7 @@
     transform-style: preserve-3d;
     -webkit-transition: all 0.4s linear;
     -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    transition: all 0.1s linear;
     transform-origin: bottom center;
 }
 
