@@ -78,7 +78,7 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--carity-white);
-    text-transform: capitalize;
+    text-transform: none;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
