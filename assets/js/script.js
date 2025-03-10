@@ -1130,14 +1130,16 @@
     var groups = {};
     $(".img-popup").each(function () {
       var id = parseInt($(this).attr("data-group"), 10);
-
+  
       if (!groups[id]) {
         groups[id] = [];
       }
-
+  
       groups[id].push(this);
     });
-
+  
+    console.log(groups); // Inspect the groups object
+  
     $.each(groups, function () {
       $(this).magnificPopup({
         type: "image",

@@ -190,8 +190,8 @@
     -webkit-transform: scale(0);
     transform: scale(0);
     opacity: 0;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
     z-index: 2;
 }
 
@@ -199,7 +199,7 @@
 .gallery-page__single:hover .gallery-page__icon a {
     -webkit-transform: scale(1);
     transform: scale(1);
-    transition-delay: 500ms;
+    transition-delay: 250ms;
     opacity: 1;
 }
 
