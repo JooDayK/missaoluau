@@ -477,6 +477,20 @@ ul {
   margin-bottom: 10px;
 }
 
+.section-title__tagline__2 {
+  position: relative;
+  margin: 0;
+  font-family: var(--carity-font-three);
+  color: var(--carity-base);
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 18px;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
 
 .section-title__tagline-border {
   width: 17px;

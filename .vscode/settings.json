@@ -1,13 +1,39 @@
 {
     "cSpell.words": [
         "Canende",
+        "Carlito",
         "conosco",
         "Dehoniana",
+        "dehoniano",
         "Dehonianos",
         "Lojinha",
         "Mieiro",
         "Missonários",
         "Studia"
     ],
-    "editor.minimap.autohide": true
+    "editor.minimap.autohide": true,
+    "cSpell.ignoreWords": [
+        "España",
+        "GRACIAS",
+        "Guadalaja",
+        "Siempre",
+        "Vivir",
+        "conocer",
+        "decir",
+        "decisión",
+        "esas",
+        "escribir",
+        "jamás",
+        "llevo",
+        "líneas",
+        "mejor",
+        "niños",
+        "olvidaré",
+        "puedo",
+        "recordaré",
+        "recuerdos",
+        "tiempos",
+        "vivir",
+        "vosotros"
+    ]
 }
