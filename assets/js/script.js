@@ -572,7 +572,7 @@
       dots: true,
       smartSpeed: 500,
       autoplay: true,
-      autoplayTimeout: 7000,
+      autoplayTimeout: 3000,
       navText: [
         '<span class="icon-left-arrow"></span>',
         '<span class="icon-right-arrow"></span>',
