@@ -1129,16 +1129,19 @@
   if ($(".img-popup").length) {
     var groups = {};
     $(".img-popup").each(function () {
-      var id = parseInt($(this).attr("data-group"), 10);
+      // Include only elements inside .gallery-carousel-style
+      if ($(this).closest(".gallery-carousel-style").length) {
+        var id = parseInt($(this).attr("data-group"), 10);
   
-      if (!groups[id]) {
-        groups[id] = [];
+        if (!groups[id]) {
+          groups[id] = [];
+        }
+  
+        groups[id].push(this);
       }
-  
-      groups[id].push(this);
     });
   
-    console.log(groups); // Inspect the groups object
+    console.log(groups); // Debugging: Inspect the groups object
   
     $.each(groups, function () {
       $(this).magnificPopup({
