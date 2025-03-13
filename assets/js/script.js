@@ -1121,8 +1121,10 @@
       mainClass: "mfp-fade",
       removalDelay: 160,
       preloader: true,
-
-      fixedContentPos: false
+      fixedContentPos: false,
+      closeBtnInside: true,
+      closeOnBgClick: true,
+      enableEscapeKey: true
     });
   }
 
